@@ -1,0 +1,21 @@
+---
+# tasks file for powertop
+- name: install powertop
+  package:
+    name: "{{ powertop_packages }}"
+    state: present
+  register: powertop_install_powertop
+  until: powertop_install_powertop is succeeded
+  retries: 3
+
+- name: create powertop service
+  import_role:
+    name: robertdebock.service
+
+- name: enable powertop
+  service:
+    name: "{{ powertop_service }}"
+    state: stopped
+    enabled: yes
+  when:
+    - ansible_virtualization_type != "docker"

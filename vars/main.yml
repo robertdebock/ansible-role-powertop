@@ -1,0 +1,18 @@
+---
+# vars file for powertop
+_powertop_packages:
+  default:
+    - powertop
+
+powertop_packages: "{{ _powertop_packages[ansible_distribution] | default(_powertop_packages['default']) }}"
+
+service_list:
+  - name: powertop
+    description: Powertop
+    start_command: /usr/sbin/powertop --auto-tune
+    type: oneshot
+
+_powertop_service:
+  default: powertop
+
+powertop_service: "{{ _powertop_service[ansible_distribution] | default(_powertop_service['default']) }}"

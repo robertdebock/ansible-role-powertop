@@ -1,0 +1,4 @@
+---
+exceptions:
+  - variation: EL
+    reason: "No package matching 'powertop' found available, installed or updated"

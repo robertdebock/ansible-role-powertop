@@ -17,5 +17,3 @@
     name: "{{ powertop_service }}"
     state: stopped
     enabled: yes
-  when:
-    - ansible_virtualization_type != "docker"

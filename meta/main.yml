@@ -10,7 +10,7 @@ galaxy_info:
   platforms:
     - name: Amazon
       versions:
-        - all
+        - Candidate
     - name: Alpine
       versions:
         - all
@@ -33,15 +33,8 @@ galaxy_info:
 
   galaxy_tags:
     - powertop
-    - alpine
-    - archlinux
     - centos
-    - debian
-    - el
-    - fedora
-    - opensuse
     - rhel
-    - ubuntu
 
 dependencies:
   - robertdebock.service

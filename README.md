@@ -75,7 +75,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 
 |container|tag|allow_failures|
 |---------|---|--------------|
-|amazonlinux|1|no|
 |amazonlinux|latest|no|
 |alpine|latest|no|
 |alpine|edge|yes|
@@ -100,6 +99,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 | variation                 | reason                 |
 |---------------------------|------------------------|
 | EL | No package matching 'powertop' found available, installed or updated |
+| amazonlinux:1 | No package matching 'powertop' found available, installed or updated |
 
 
 

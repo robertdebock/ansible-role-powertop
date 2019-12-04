@@ -103,7 +103,6 @@ Some variarations of the build matrix do not work. These are the variations and 
 | amazonlinux:1 | No package matching 'powertop' found available, installed or updated |
 
 
-
 Testing
 -------
 

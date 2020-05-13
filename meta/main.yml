@@ -35,4 +35,5 @@ galaxy_info:
     - powertop
     - centos
 
-dependencies:   - robertdebock.service
+dependencies:
+  - robertdebock.service

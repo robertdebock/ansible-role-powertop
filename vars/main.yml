@@ -1,5 +1,6 @@
 ---
 # vars file for powertop
+
 _powertop_packages:
   default:
     - powertop

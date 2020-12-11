@@ -2,9 +2,9 @@
 
 Install powertop on your system and optimize at boot.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-powertop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-powertop)|[![github](https://github.com/robertdebock/ansible-role-powertop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-powertop/actions)|[![quality](https://img.shields.io/ansible/quality/39345)](https://galaxy.ansible.com/robertdebock/powertop)|[![downloads](https://img.shields.io/ansible/role/d/39345)](https://galaxy.ansible.com/robertdebock/powertop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-powertop.svg)](https://github.com/robertdebock/ansible-role-powertop/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-powertop.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-powertop)|[![github](https://github.com/robertdebock/ansible-role-powertop/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-powertop/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-powertop/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-powertop)|[![quality](https://img.shields.io/ansible/quality/39345)](https://galaxy.ansible.com/robertdebock/powertop)|[![downloads](https://img.shields.io/ansible/role/d/39345)](https://galaxy.ansible.com/robertdebock/powertop)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-powertop.svg)](https://github.com/robertdebock/ansible-role-powertop/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -37,10 +37,11 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 ## [Requirements](#requirements)
 
-- Access to a repository containing packages, likely on the internet.
-- A recent version of Ansible. (Tests run on the current, previous and next release of Ansible.)
+- pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-powertop/blob/master/requirements.txt).
 
 ## [Status of requirements](#status-of-requirements)
+
+The following roles are used to prepare a system. You may choose to prepare your system in another way, I have tested these roles as well.
 
 | Requirement | Travis | GitHub |
 |-------------|--------|--------|

@@ -7,12 +7,6 @@ _powertop_packages:
 
 powertop_packages: "{{ _powertop_packages[ansible_distribution] | default(_powertop_packages['default']) }}"
 
-service_list:
-  - name: powertop
-    description: Powertop
-    start_command: /usr/sbin/powertop --auto-tune
-    type: oneshot
-
 _powertop_service:
   default: powertop
 

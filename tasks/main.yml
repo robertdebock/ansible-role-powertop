@@ -9,6 +9,12 @@
 - name: create powertop service
   import_role:
     name: robertdebock.service
+  vars:
+    service_list:
+      - name: powertop
+        description: Powertop
+        start_command: /usr/sbin/powertop --auto-tune
+        type: oneshot
 
 - name: enable powertop
   service:

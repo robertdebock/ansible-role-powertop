@@ -5,4 +5,4 @@
 repository:
   description: Install powertop on your system and optimize at boot.
   homepage: https://robertdebock.nl/
-  topics: powertop, ansible, molecule, tox, playbook, hacktoberfest
+  topics: powertop, ansible, molecule, tox, playbook

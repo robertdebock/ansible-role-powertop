@@ -1,4 +1,4 @@
-# Ansible role [powertop](#powertop)
+# [Ansible role powertop](#powertop)
 
 Install powertop on your system and optimize at boot.
 
